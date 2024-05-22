@@ -1,0 +1,126 @@
+<!Doctype html>
+<html lan="en">
+
+<head>
+<title>Application Form</title>
+<style>
+      form{
+	      background-color: lightblue;
+		  color: black;
+		  }
+		  
+  header{
+              color:black;
+			  text-align: center
+			}
+
+</style>
+</head>
+
+<body>
+
+<header style="background-color:blue" id="home">
+<a href="file:///C:/Users/qaaim/OneDrive/Desktop/HCIT/Intro%20to%20Web/Form1.html">Home  /</a>
+<a href="file:///C:/Users/qaaim/OneDrive/Desktop/HCIT/Intro%20to%20Web/Form3.html">Apply</a>
+</header>
+
+
+<form>
+<h1>Register Form</h1>
+
+<label for="name">Name : </label>
+<input type="text" name="name" id="name" required> <br><br>
+
+<label for="age">AGE : </label>
+<input type="number" name="age" id="age" required> <br><br>
+
+<label for="email">Email : </label>
+<input type="email" name="email" id="email" required>
+
+<label for="password">Password : </label>
+<input type="password" name="password" id="password" required> <br><br>
+
+<label for="ID">ID Number: </label>
+<input type="text" name="ID" id="ID" required> 
+
+
+<label for="number">Phone Number : </label>
+<input type="tel" name="number" id="number" required> <br><br>
+
+<label for="course">Select a Course : </label> 
+
+<select name="course" id="course" required>
+<option>IT</option>
+<option>Education</option>
+<option>Medical</option>
+<option>Business</option>
+<option>Dentistry</option>
+</select> <br><br>
+
+<label for="campus">Select Campus Choice: </label> 
+
+<select name="camous" id="campus" required>
+<option>Cape Town</option>
+<option>Joburg</option>
+<option>Guateng</option>
+</select> <br><br>
+
+
+<h4>Choose Qualification Type : </h4>
+<label for="HCIT">HCIT</label>
+<input type="radio" id="HCIT" name="type" value="HCIT"> 
+
+<label for="DIT">DIT</label>
+<input type="radio" id="DIT" name="type" value="DIT">
+
+<label for="DIT">BCIT</label>
+<input type="radio" id="DIT name="type" value="DIT"> <br><br>
+
+<h4>Select Pass Type : </h4>
+<label for="Certificate">Certificate </label>
+<input type="radio" id="Certificate" name="Type2" value="Certificate"> <br><br>
+
+<label for="Diploma">Diploma </label>
+<input type="radio" id="Diploma" name="Type2" value="Diploma"> <br><br>
+
+<label for="Bachelor">Bachelor</label>
+<input type="radio" id="Bachelor" name="Type2" value="Bachelor"> <br><br>
+
+
+<div style="background-color: blue;">
+<h3><b>Upload Documents<b></h3> <br>
+
+<label>Grade 12 Report : </label>
+<input type="file" name="report" id="report"> <br>
+
+<label>ID DOCUMENT :</label>
+<input type="file" name="ID" id="ID">
+
+</div>
+
+
+<br>
+<label for="info"><i>Tells us about yourself :</i></label> <br>
+<textarea name ="info" id="info" cols="80" rows="7"> </textarea> <br><br>
+
+<h4>Where did you hear about "QTech University"</h4>
+<label for="website">Website</label>
+<input type="checkbox" name="website" id="website" value="website">
+
+<label for="class">Class</label>
+<input type="checkbox" name="class" id="class" value="class"> 
+
+<label for="other">Other</label>
+<input type="checkbox" name="other" id="other" value="other"> <br><br>
+
+<input type="reset" value="Reset">
+
+<br><br>
+<input type="button" value="Submit" >
+
+
+
+
+</form>
+</body>
+</html>
